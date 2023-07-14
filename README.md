@@ -5,6 +5,11 @@ User Management Back-End Implementation With FastAPI &amp; 3-Tier Software Archi
 
 ### How to run?
 
-```bash
-uvicorn app.main:app --reload
-```
+* Install the requirements
+  ```bash
+  py -m pip install -r requirements.txt
+  ```
+* Run the Uvicorn server
+  ```bash
+  uvicorn app.main:app --reload
+  ```
